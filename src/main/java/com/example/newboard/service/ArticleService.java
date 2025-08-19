@@ -5,7 +5,7 @@ import com.example.newboard.repository.ArticleRepository;
 import com.example.newboard.repository.UserRepository;
 import com.example.newboard.web.dto.ArticleCreateRequest;
 import com.example.newboard.web.dto.ArticleUpdateRequest;
-import jakarta.transaction.Transactional;
+import org.springframework.transaction.annotation.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.stereotype.Service;

@@ -29,3 +29,4 @@ public class Article {
     private User author;  // User 테이블의 id 와 연결되는 외래키 컬럼
 
 }
+
